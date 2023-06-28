@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BAsketBallScoreBoard</title>
+</head>
+<body>
+
+   <div class="board-container">
+    <div>
+        <h1>HOME</h1>
+        <div class="points-wrapper">
+            <div class="points">
+                <h2 id= "content-el">0</h2>
+            </div>
+        </div>
+        
+        <button  onclick="homePlusOne()">+1</button>
+        <button  onclick="homePlusTwo()">+2</button>
+        <button  onclick="homePlusThree()">+3</button>
+    </div>
+
+   <div class="restart-wrapper">
+    <button id="restart-btn" onclick="restart()">RESTART</button>
+   </div>
+    <div>    
+        <h1>GUEST</h1>
+        <div class="points-wrapper">
+            <div class="points">
+                <h2 id="guest-el">0</h2>            
+            </div>
+        </div>    
+        <button onclick="guestPlusOne()">+1</button>
+        <button onclick="guestPlusTwo()">+2</button>
+        <button onclick="guestPlusThree()">+3</button>
+    </div>
+
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>

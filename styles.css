@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Timer;
+    src: url(/font/Technology.ttf);
+}
+
+body{
+    background-image: url(/img/pexels-tommaso-cericola-4148732.jpg);
+    margin: 0;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: 700;
+    /* margin-top: 20px; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2{
+    font-family: Timer;
+    color: #F94F6D;
+    font-size: 90px;
+    line-height: 127px;
+}
+
+.board-container{
+    display: flex;
+    width: 500px;
+    margin: 10px auto 0;
+    justify-content: space-around;
+    background: #1B244A;
+    padding: 40px 10px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 5px 5px 5px black;
+    
+    
+}
+.points-wrapper{
+    width: 155px;
+    height: 120px;
+    margin: 10px 0 15px 0;
+    background: #080001;
+    border-radius: 5px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    
+}
+.points{
+    /* border: 2px solid whitesmoke; */
+    width: 117px;
+    height: 119px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.restart-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: transparent;
+    color: whitesmoke;
+    /* margin-bottom: 40px; */
+
+}
+#restart-btn{
+    width: 100px;
+}
+
+button:hover{
+    box-shadow: 0 0 5px #9AABD8;
+}
+button:active{
+    box-shadow: none;
+}
